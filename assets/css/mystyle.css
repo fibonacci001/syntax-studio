@@ -68,7 +68,8 @@ body {
 
 }
 
-@media (max-width:1026px) {
+
+@media (max-width:500px) {
     .mybrand-logo {
         width: 60%;
         margin-right: 3px;
@@ -124,3 +125,20 @@ body {
 
 
 }
+
+
+@media (max-width:430px) {
+    .wither {
+        display: none;
+    }
+    .myitem {
+        display: flex;
+        align-items: center; 
+        justify-content: flex-end;
+    }
+    .logo_link {
+        display:  flex;
+        align-items: center;
+        justify-content: center;
+    }
+    }
